@@ -40,6 +40,9 @@ const WareHouse = () => {
     }
   }, [WareHouse])
   
+  const Update =()=>{
+    alert('Sorry No Database For Saving The Data')
+  }
   console.log('Details',Details);
   return (
     <div className="DetailsPage">
@@ -109,7 +112,7 @@ const WareHouse = () => {
                 </div>
 
              </div>
-             <button>Update<span className="material-icons-outlined">auto_fix_normal</span></button>
+             <button onClick={Update}>Update<span className="material-icons-outlined">auto_fix_normal</span></button>
             </div>:null}
         </div>
       </div>
